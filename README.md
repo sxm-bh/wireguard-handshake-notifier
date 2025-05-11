@@ -5,6 +5,7 @@ Variation:</br>
 `monitor_by_ip.sh`: Monitor peers identified by IP.</br>
 `monitor_by_publickey`: Monitor peers identified by public key.
 
+Sample message sent via Telegram API
 ![image](https://github.com/user-attachments/assets/bbed1710-99fd-4240-8f17-771eecc11890)
 
 ---
