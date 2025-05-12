@@ -67,7 +67,7 @@ To run this script every minute, add to your crontab:
 ## Customization Tips
 
 - Change `HANDSHAKE_THRESHOLD` to adjust how recent a handshake must be to consider the peer online.
-- Replace the Telegram with your preferred notification method (e.g., email, Slack).
+- Replace Telegram with your preferred notification method (e.g., email, Slack).
 - Set your WireGuard interface name in `WG_INTERFACE`.
 - Store your Telegram bot token and chat ID in the variables `BOT_TOKEN` and `CHAT_ID`.
 - Store your WireGuard peers IP or PublicKey in the variable `PEER_IPS` or `PEER_PUBKEY`.
