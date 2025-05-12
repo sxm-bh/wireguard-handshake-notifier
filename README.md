@@ -3,7 +3,7 @@
 A script designed to monitor WireGuard connections by measuring handshake timestamps within a predefined threshold, detecting changes in connection status, and sending notifications accordingly.</br></br>
 Variation:</br>
 `monitor_by_ip.sh`: Monitor peers identified by IP.</br>
-`monitor_by_publickey`: Monitor peers identified by public key.
+`monitor_by_publickey.sh`: Monitor peers identified by public key.
 
 Sample message sent via Telegram API
 ![image](https://github.com/user-attachments/assets/bbed1710-99fd-4240-8f17-771eecc11890)
