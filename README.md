@@ -15,6 +15,7 @@ Sample message sent via Telegram API
 - Checks whether a peer has connected based on the latest handshake timestamp.
 - Stores previous handshake info to detect status changes.
 - Sends notifications (via Telegram, or customize to your preferred platform) only when a peer's status changes.
+- Only sends a message once the peer's status has changed.
 - Supports parsing for custom message with special characters.
 - Configurable handshake timeout threshold.
 - Lightweight and easy to integrate.
@@ -76,4 +77,4 @@ To run this script every minute, add to your crontab:
 
 ## Acknowledgement
 
-This is my personal implementation of the script, based on [this project.](https://github.com/alfiosalanitri/wireguard-client-connection-notification)
+This is my personal implementation of the script, based on [this project.](https://github.com/alfiosalanitri/wireguard-client-connection-notification) My script only sends a message once the peer's status has changed.
