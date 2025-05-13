@@ -37,7 +37,7 @@ Using handshake timestamps to determine peer connectivity:
 
 ### 1. Save the Script
 
-Choose between `monitor_by_ip.sh` or `monitor_by_publickey`. Feel free to rename the file to whatever you like.
+Choose between `monitor_by_ip.sh` or `monitor_by_publickey.sh`. Feel free to rename the file to whatever you like.
 
 ```bash
 git clone https://github.com/sxm-bh/wireguard-handshake-notifier.git
